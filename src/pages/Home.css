@@ -1,0 +1,42 @@
+h1.title,
+.card-container {
+    margin: 1rem 1rem 1.5rem;
+}
+
+.card-container {
+    display: block;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 3px 8px 5px 0px rgba(68, 65, 65, 0.1);
+
+    text-decoration: none;
+}
+
+.card-container:hover {
+    /* margin: 3px; */
+    /* box-shadow: -3px 10px 13px 6px rgba(204,186,186,0.75); */
+}
+
+.card span {
+    display: block;
+}
+
+.card .image {
+    width: 100%;
+}
+
+
+.card .body {
+    padding: 0 1rem 1rem;
+}
+
+.card .title {
+    margin: 1rem 0;
+    color: black;
+    font-weight: 400;
+}
+
+.card .text {
+    font-size: .8rem;
+    color: #636060;
+}
